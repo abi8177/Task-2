@@ -12,7 +12,21 @@ body{
     background-size: cover;
 }
 
-h3{
+marquee{
+    color: wheat;
+    cursor: default;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 4px );
+    border-radius: 5px;
+}
+
+.hobbies{
+    align-items: center;
+}
+
+span{
+    margin-top: 5px;
+    font-size: large;
     text-align: center;
     color: white;
 }
@@ -21,7 +35,7 @@ h3{
     margin-top: 1cm;
     width: 9cm;
     background: rgba( 255, 255, 255, 0.15 );
-    backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 4px );
     border-radius: 50px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -55,4 +69,26 @@ h3{
 #box1{
     color: white;
     margin-left: 2cm;
+}
+
+#back2top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 4px );
+    border-radius: 50px;
+    color: #100f0f;
+    margin:10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hobbies{
+    padding: 8px 20px;
+    margin-left: 2.3cm;
+    margin-bottom: 10px;
+
 }
